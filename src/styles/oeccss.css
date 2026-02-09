@@ -1075,10 +1075,16 @@ table th {
 
 li.listtitle {
 	list-style-type: none;
+	margin-bottom: 24px;
+}
+
+li.listtitle > a {
 	color: rgb(200, 100, 50);
+	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 24px;
 	font-weight: bold;
 	text-decoration: underline;
+	display: block;
 }
 
 li.inactive {
@@ -1095,8 +1101,15 @@ ul.module li {
 	padding-top: 5px;
 }
 
-ul.module a {
+ul.module a,
+ul.module a >:visited {
 	color: black;
+	text-decoration: none;
+}
+
+ul.module a:hover,
+ul.module a:focus {
+	text-decoration: underline;
 }
 
 .user-input {
