@@ -164,8 +164,8 @@
 			loadQuestionsInto($container, filename);
 
 			$('small').replaceWith('<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>');
-			$('#table-submit').replaceWith('<button class="solid-button button" id="submit">Check</button>');
-			$('#table-try-again').replaceWith('<button class="solid-button button hidden" id="again">Try Again?</button>');
+			$('#table-submit').replaceWith('<button type="submit" class="solid-button button" id="submit">Check</button>');
+			$('#table-try-again').replaceWith('<button type="button" class="solid-button button hidden" id="again">Try Again?</button>');
 		});
 
 	});
