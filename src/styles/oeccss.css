@@ -1063,8 +1063,13 @@ table th {
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
 	content: none;
 }
+
 .bc-icons-2 .breadcrumb-item.active {
 	color: rgb(200, 100, 50);
+}
+
+.bc-icons-2 .breadcrumb .fa-angle-double-right {
+  	margin: 0 4px;
 }
 
 /* Module index*/
