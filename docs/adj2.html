@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="language" content="english">
-    <meta http-equiv="content-type" content="text/html">
     <meta name="author" content="Victoria Koivisto-Kokko">
     <meta name="designer" content="Victoria Koivisto-Kokko">
     <meta name="publisher" content="Victoria Koivisto-Kokko">
@@ -171,16 +170,16 @@
                             <!-- Nav tabs -->
                             <ul class="nav tabs four-tabs nav-justified" role="tablist">
                                 <li role="presentation" class="active">
-                                    <a href="#god" aria-controls="Good" role="tab" data-toggle="tab">God</a>
+                                    <a href="#god" aria-controls="god" role="tab" data-toggle="tab">God</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#halig" aria-controls="Halig" role="tab" data-toggle="tab">Halig</a>
+                                    <a href="#halig" aria-controls="halig" role="tab" data-toggle="tab">Halig</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#heah" aria-controls="Heah" role="tab" data-toggle="tab">Heah</a>
+                                    <a href="#heah" aria-controls="heah" role="tab" data-toggle="tab">Heah</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#wise" aria-controls="wis" role="tab" data-toggle="tab">Wis</a>
+                                    <a href="#wis" aria-controls="wis" role="tab" data-toggle="tab">Wis</a>
                                 </li>
                             </ul>
                             <!-- Tab panes -->
@@ -326,7 +325,7 @@
                                         </tr>
                                     </table>
                                 </div>
-                                <div role="tabpanel" class="text-center tab-pane" id="wise">
+                                <div role="tabpanel" class="text-center tab-pane" id="wis">
                                     <table class="tabbed-table table-striped inline-block five-col-table table-hide">
                                         <tr>
                                             <th></th>
@@ -444,17 +443,17 @@
             </div>
             <form name="form1" autocomplete="OFF">
                 <p>
-                    <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
-                    <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
-                    <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                    <button type="button" class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                    <button type="button" class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                    <button type="button" class="light-button button special-character" data-char="&eth;">&eth;</button>
                     <br class="visible-xs"> <sub>Use these buttons to insert thorn, ash and eth when you have an input
                         selected.</sub>
                 </p>
                 <div id="question-wrapper" data-question-file="adj2_answers.json">
                 </div>
                 <div class="form-group">
-                    <button class="solid-button button" id="submit">Check</button>
-                    <button class="solid-button button hidden" id="again">Try Again?</button>
+                    <button type="submit" class="solid-button button" id="submit">Check</button>
+                    <button type="button" class="solid-button button hidden" id="again">Try Again?</button>
                 </div>
             </form>
         </section>
